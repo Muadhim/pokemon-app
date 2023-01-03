@@ -1,0 +1,7 @@
+#error-page {
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    color: red;
+    text-align: center;
+}
