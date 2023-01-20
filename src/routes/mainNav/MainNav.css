@@ -1,0 +1,28 @@
+.main-nav{
+    border-bottom: green solid 3px;
+    background-color: rgb(189, 221, 140);
+    height: 90px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.link{
+    margin: 5px;
+    border: black solid 1px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.link:hover{
+    background-color: rgb(116, 146, 71);
+    border: #444;
+}
+.main-nav .link a{
+    text-decoration: none;
+    color: #444;
+    margin: 10px;
+}

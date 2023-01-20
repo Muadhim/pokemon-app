@@ -1,3 +1,18 @@
+.poke-detail-card{
+    margin: 10px;
+}
+.poke-detail-card .title-card{
+    margin: 5px auto;
+    text-align: center;
+    font-size: 25pt;
+    font-weight: 600;
+}
+.img-detail-poke{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .image-poke {
     height: 300px;
     width: 300px;

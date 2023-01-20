@@ -65,7 +65,7 @@ class PokeDetailCard extends Component {
     render() {
         return(
             <div className="poke-detail-card" >
-                <p>{this.state.detailPoke.name}</p>
+                <p className="title-card">{this.state.detailPoke.name}</p>
                 <div className="img-detail-poke">
                     <img src={this.state.imagePoke.front_default} alt="" className="image-poke" />
                     <img src={this.state.imagePoke.back_default} alt="" className="image-poke" />
